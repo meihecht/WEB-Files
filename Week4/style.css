@@ -1,0 +1,23 @@
+/* this is a comment in css */
+    ul {
+      color: blue;
+      font-family: helvetica;
+      font-weight: 1000;
+    }
+    h1{
+      font-size: 50px;
+    }
+
+    button{
+      background-color: rbg(30,100,0);
+      width: 20vw;
+    }
+    body{
+      font-family: cursive;
+      background-color: black;
+      color: white;
+    }
+    form{
+      margin-left: 20px;
+
+    }
