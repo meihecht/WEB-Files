@@ -1,0 +1,59 @@
+body{
+  font-family: helvetica;
+  color: solid red:
+}
+p{
+
+  font-size: 20px;
+}
+#second{
+  font-weight: bold;
+}
+h1{
+  border: solid red 1px;
+  font-family: "Stick+No+Bills";
+}
+.grey{
+  color: rgb(100,100,100);
+
+}
+.background{
+  background-color: grey;
+}
+p.background{
+  color:red;
+
+}
+span{
+  color: blue;
+}
+#sit{
+  font-family: cursive;
+}
+#dotted{
+  border: dotted purple;
+}
+#solid{
+  border: solid purple;
+
+}
+#dashed{
+  border: dashed purple;
+}
+#ridge{
+  border: ridge purple;
+}
+#groove{
+  border: grove purple;
+}
+#two{
+  border: solid black 1px;
+  background-color: blue;
+  /* margin: 50px */
+  /* padding is space on the outside and margin is space on the inside */
+  padding-left: 4vw;
+  padding-top: 4vw;
+  margin-bottom: 4vw;
+  /* margin: top right left bottom  */
+
+}

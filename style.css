@@ -1,10 +1,31 @@
 body{
-  background-color:grey;
+  background-color:#E5E5E5;
+  text-align: center;
+  list-style-position: inside;
 }
-element{
+
+h1{
+  color:#5D5FEF;
+  border: 3px solid black;
+  font-family: cursive;
+  border-bottom:  groove black;
+
 
 }
-#title{
-  color:purple;
+h2{
+  color: #7879F1;
+}
+h3{
+  color:#A5A6F6;
+}
 
+h4{
+  color:#A5A6F6;
+
+}
+
+.button{
+  color: #2481B6;
+  background-color: ;
+  border: none;
 }
