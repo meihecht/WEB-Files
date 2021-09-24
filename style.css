@@ -25,5 +25,13 @@ h4{
 }
 
 .button{
-  color: #2481B6;
+  color: white;
+  border-radius: 10px;
+  background-color: #5D5FEF;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-align: center
+  /* display: inline-block; */
+  /* cursor: pointer; */
+
 }
