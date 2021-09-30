@@ -7,10 +7,16 @@ body{
 h1{
   color:#5D5FEF;
   border: 3px solid black;
-  font-family: cursive;
+  font-family: roboto;
   border-bottom:  groove black;
 
 
+}
+#fun{
+  color:#5D5FEF;
+}
+#stuff{
+  color:black;
 }
 h2{
   color: #7879F1;
@@ -23,6 +29,31 @@ h4{
   color:#A5A6F6;
 
 }
+#pagetop{
+
+}
+#hero{
+  width:100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+
+}
+#hero img{
+  width: 100vw;
+  position: relative;
+  bottom: 300px;
+}
+#hero h1{
+  border: none;
+  color: black;
+  z-index: 1;
+  position:relative;
+  font-size: 5vw;
+  /* top: 30vh; */
+  margin: 1 0 0 10vw;
+}
 
 .button{
   color: white;
@@ -34,4 +65,7 @@ h4{
   /* display: inline-block; */
   /* cursor: pointer; */
 
+}
+#mybutton,#mybutton2{
+  color: #5D5FEF;
 }
