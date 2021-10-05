@@ -1,0 +1,36 @@
+#quotesection{
+  background-color: #2f2ab0;
+  margin: 30vh 20vw;
+  padding: 8vh 8vw 10vh 10vw;
+  border-radius: 8px;
+}
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color:black;
+  color: #b3b1e3;
+
+}
+button:hover{
+  border: white solid 1px;
+
+}
+button: active{
+  color: #575661;
+}
+h1{
+  color: #b3b1e3;
+}
+#flex{
+  display:flex;
+  margin: 150px;
+}
+div{
+  border: 1px solid black;
+  margin-left: 2vw;
+}
+.flexitem{
+  flex-grow: 1;
+}

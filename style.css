@@ -4,20 +4,23 @@ body{
   list-style-position: inside;
 }
 
+
 h1{
   color:#5D5FEF;
   border: 3px solid black;
   font-family: roboto;
-  border-bottom:  groove black;
+  border-bottom: groove black;
 
 
 }
 #fun{
   color:#5D5FEF;
 }
-#stuff{
-  color:black;
+#stuff a{
+  color: #2481B6;
+
 }
+
 h2{
   color: #7879F1;
 }
@@ -29,7 +32,12 @@ h4{
   color:#A5A6F6;
 
 }
-#pagetop{
+#pagetop a{
+  color:#2481B6;
+
+}
+#backtotop a{
+  color: #2481B6;
 
 }
 #hero{
@@ -47,13 +55,19 @@ h4{
 }
 #hero h1{
   border: none;
-  color: black;
+  color: #5D5FEF;
   z-index: 1;
   position:relative;
   font-size: 5vw;
   /* top: 30vh; */
   margin: 1 0 0 10vw;
 }
+#bottom h2{
+  color: #2481B6;
+
+
+}
+
 
 .button{
   color: white;
@@ -67,5 +81,11 @@ h4{
 
 }
 #mybutton,#mybutton2{
-  color: #5D5FEF;
+  background-color: #5D5FEF;
+  color: white;
+  border-radius: 10px;
+  background-color: #5D5FEF;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-align: center
 }
