@@ -4,7 +4,9 @@
     <title> Quote Machine </title>
     <link rel =  "stylesheet" href = "style.css">
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=EB+Garammond|Open+Sans">
+
 </head>
+
 
 <body>
   <section id = "quotesection">
@@ -23,7 +25,8 @@
       </div>
   </section>
   <script>
-    const quotes = ["When you have a dream, you’ve got to grab it and never let go","Nothing is impossible. The word itself says ‘I’m possible!","Life has got all those twists and turns. You’ve got to hold on tight and off you go.","Keep your face always toward the sunshine, and shadows will fall behind you","Success is not final, failure is not fatal: it is the courage to continue that counts.","Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on","You don’t always need a plan. Sometimes you just need to breathe, trust, let go and see what happens","You can be everything. You can be the infinite amount of things that people are.","Belief creates the actual fact"];
+    const quotes = ["When you have a dream, you’ve got to grab it and never let go","Nothing is impossible. The word itself says ‘I’m possible!","Life has got all those twists and turns. You’ve got to hold on tight and off you go.","Keep your face always toward the sunshine, and shadows will fall behind you","Success is not final, failure is not fatal: it is the courage to continue that counts.","Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on"];
+    const colors = ["red", "orange", "yellow", "green", "blue", "purple"];
     let quotecount = 0;
     console.log(quotes[0]);
     // console.log(quotes.length); to find the length of array
@@ -33,13 +36,46 @@
       console.log(quotes[quotecount]);
       console.log(quotecount);
       document.getElementById("qtext").innerHTML = quotes[quotecount];
-      if(quotecount >= 6){
+      document.getElementById("qtext").style.color = colors[quotecount];
+      // if(quotecount >= 6){
+      //   quotecount = 0;
+      // }
+      // else{
+      //   quotecount += 1;
+      //
+      // }
+
+      if(quotecount >= quotes.length-1){
         quotecount = 0;
-      }
-      else{
-        quotecount += 1;
 
       }
+      else{
+        quotecount++;
+      }
+      // if(quotecount == 1){
+      //   document.getElementById("qtext").style.color = "red";
+      //
+      // }
+      // if(quotecount == 2){
+      //   document.getElementById("qtext").style.color = "orange";
+      //
+      // }
+      // if(quotecount == 3){
+      //   document.getElementById("qtext").style.color = "yellow";
+      //
+      // }
+      // if(quotecount == 4){
+      //   document.getElementById("qtext").style.color = "green";
+      //
+      // }
+      // if(quotecount == 5){
+      //   document.getElementById("qtext").style.color = "blue";
+      //
+      // }
+      // if(quotecount == 6){
+      //   document.getElementById("qtext").style.color = "purple";
+      //
+      // }
 
     }
   </script>

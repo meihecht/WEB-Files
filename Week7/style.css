@@ -1,11 +1,15 @@
 #quotesection{
-  background-color: #2f2ab0;
+  background-color: none;
   margin: 30vh 20vw;
   padding: 8vh 8vw 10vh 10vw;
-  border-radius: 8px;
+  border-radius: 20px;
+  border: 1px  solid black;
+}
+#newquote{
+  color: white;
 }
 button{
-  border-radius: 8px;
+  border-radius: 100px;
   padding: 1vh 3vw;
   float: right;
   margin-top: 1vh;
@@ -17,11 +21,15 @@ button:hover{
   border: white solid 1px;
 
 }
+#flex{
+  color:#2481B6;
+}
 button: active{
   color: #575661;
 }
 h1{
-  color: #b3b1e3;
+  /* color: #b3b1e3; */
+  color: black;
 }
 #flex{
   display:flex;

@@ -10,10 +10,10 @@
 
   </section>
   <section id = "hero">
-      <h1 id = "herotext"> Welcome to my site!</h1>
+      <h1 id = "herotext"> Welcome to my site click the hero to change color of text!</h1>
       <img alt = "pretty mountain" src = "prettymountain.jpg" id = "heroimg">
   </section>
-  <section>
+  <section id = "me">
     <h1> My name is Mei Hecht! :) </h1>
     <p> <em> Pronounced "May" </em> </p>
     <h2> My Pronouns are She/Her </h2>
@@ -49,7 +49,8 @@
         <!-- This is where i would link all my assignment -->
         <a href = "Week2/index.html" class = "button"> Encyclopedia Page</a>
         <a href = "Week6/index.html" class = "button"> Week 6 Website</a>
-        <a href = "Week4/index.html" class = "button"> Week 4: Cascading style sheets</a>
+        <a href = "Week4/index.html" class = "button"> Week 4 Cascading style sheets</a>
+        <a href = "Week7/index.html" class = "button" > Week 6 Quote Machine</a>
 
         <!-- hello my name is mei  -->
     </section>
@@ -60,21 +61,28 @@
   <script>
     console.log("javescript working");
     document.getElementById("mybutton").addEventListener("click",function(){alert("you pushed the button!"); buttonOne});
+    // document.getElementById("button").addEventListener("click",buttonOne);
     document.getElementById("hero").addEventListener("click",heroClick);
-    document.getElementById("mybutton2").addEventListener("click",function(){alert("you pushed the button!"); changeColor});
+    document.getElementById("mybutton2").addEventListener("click",function(){alert("you pushed the button yay!"); changeColor});
+    // document.getElementById("my").addEventListener("click",changeColor);
+    // document.getElementById("me").addEventListener("click",changeColor);
     function buttonOne(){
       alert("you pushed the button!");
-
-
+      document.getElementById("herotext").style.color = "blue";
 
     }
     function heroClick(){
       alert("You clicked the hero!");
       document.getElementById("herotext").innerHTML = "Hello you clicked the hero!";
+      document.getElementById("me").style.color = "red";
+
+
 
     }
     function changeColor(){
-      // document.getElementById("netflix").style.color = "red";
+
+      document.getElementById("stuff").style.color = "red";
+
 
     }
 
