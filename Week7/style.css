@@ -1,5 +1,5 @@
 #quotesection{
-  background-color: none;
+  background-color: white;
   margin: 30vh 20vw;
   padding: 8vh 8vw 10vh 10vw;
   border-radius: 20px;
@@ -30,6 +30,7 @@ button: active{
 h1{
   /* color: #b3b1e3; */
   color: black;
+  font-size: 100px;
 }
 #flex{
   display:flex;
@@ -41,4 +42,11 @@ div{
 }
 .flexitem{
   flex-grow: 1;
+}
+body{
+  background-color: pink;
+}
+img{
+  max-width: 100%;
+
 }

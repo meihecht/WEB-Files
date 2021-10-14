@@ -1,0 +1,27 @@
+#selfcareMenu{
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+
+}
+#hero{
+  width:100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+#heroimg{
+  width: 100vw;
+  position: relative;
+  bottom: 300px;
+}
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 6vw;
+  top: 45vh;
+  margin: 0 0 0 7vw;
+  color: #bf6d21;
+}

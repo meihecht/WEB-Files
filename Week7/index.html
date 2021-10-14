@@ -12,8 +12,9 @@
   <section id = "quotesection">
   <h1 id = "qtext"> Welcome to the Quote Machine </h1>
   <button id = "newquote"> New Quote </button>
+  <img id = "qimg" src = "coolpic.jpg" alt = "random pics">
   </section>
-  <section id = "flex">
+  <!-- <section id = "flex">
       <div class = "flexitem">
         <h2> one</h2>
       </div>
@@ -23,10 +24,11 @@
       <div class = "flexitem">
           <h2>three</h2>
       </div>
-  </section>
+  </section> -->
   <script>
     const quotes = ["When you have a dream, you’ve got to grab it and never let go","Nothing is impossible. The word itself says ‘I’m possible!","Life has got all those twists and turns. You’ve got to hold on tight and off you go.","Keep your face always toward the sunshine, and shadows will fall behind you","Success is not final, failure is not fatal: it is the courage to continue that counts.","Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on"];
-    const colors = ["red", "orange", "yellow", "green", "blue", "purple"];
+    const colors = ["red", "#ff8400", "#f0b000", "green", "blue", "purple"];
+    const images = ["clock.jpg","fun.jpg","mems.jpg","rough-road.jpg", "random.jpg", "tracks.jpg"]
     let quotecount = 0;
     console.log(quotes[0]);
     // console.log(quotes.length); to find the length of array
@@ -37,6 +39,8 @@
       console.log(quotecount);
       document.getElementById("qtext").innerHTML = quotes[quotecount];
       document.getElementById("qtext").style.color = colors[quotecount];
+      document.getElementById("qtext").style.fontSize = "50px";
+      document.getElementById("qimg").src= images[quotecount];
       // if(quotecount >= 6){
       //   quotecount = 0;
       // }
@@ -48,10 +52,12 @@
       if(quotecount >= quotes.length-1){
         quotecount = 0;
 
+
       }
       else{
         quotecount++;
       }
+
       // if(quotecount == 1){
       //   document.getElementById("qtext").style.color = "red";
       //
