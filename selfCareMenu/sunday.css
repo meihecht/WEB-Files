@@ -1,5 +1,5 @@
 body{
-  background-color:#948888;
+  background-color:white;
 }
 h1{
   color:black;
@@ -40,7 +40,7 @@ h1{
 #hero img{
   width: 100vw;
   position: relative;
-  bottom: 350px;
+  bottom: 300px;
 }
 #herotext{
   border: none;
@@ -61,5 +61,4 @@ h1{
 }
 img{
   max-width: 100%;
-
 }
