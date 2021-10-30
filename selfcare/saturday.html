@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title> Saturday </title>
+  <link rel =  "stylesheet" href = "saturday.css">
+</head>
+<body>
+  <section id = "hero">
+      <h1 id = "herotext">Saturday</h1>
+      <img alt = "Beach" src = "./assets/beach.jpg" id = "heroimg">
+  </section>
+  <section id = "selfcareitems">
+  <h1 id = "text"> Self Care Items</h1>
+  <button id = "newitem"> Click here for a self care item for today!</button>
+  <img id = "qimg" src = "care.jpg" alt = "self care picture">
+  </section>
+  <script>
+      const items = ["Wash your face", "Take a breath", "Watch a Movie","Eat a snack", "workout", "Take a shower", "Call a friend"];
+      const imgs = ["skin.jpg","breath.jpg","netflix.jpg","snack.jpg","workout.jpg","shower.jpg","friend.jpg"];
+      let itemscount = 0;
+      console.log(items[0]);
+      document.getElementById("newitem"). addEventListener("click", buttonClicked);
+      function buttonClicked(){
+        console.log(items[itemscount]);
+        console.log(itemscount);
+        document.getElementById("text").innerHTML = items[itemscount];
+        document.getElementById("qimg").src= imgs[itemscount];
+
+        if(itemscount>= items.length-1){
+          itemscount = 0;
+        }
+        else{
+          itemscount++;
+        }
+
+      }
+
+  </script>
+
+
+</body>
+</html>
