@@ -1,3 +1,81 @@
-body{
-  color:red;
+#selfcareMenu{
+  color: black;
+  font-size: 2vw;
+  font:Adamina;
+  text-align: center;
+}
+#header2{
+  color: black;
+  font-size: 50px;
+  font:Adamina;
+  text-align: center;
+
+}
+#header3{
+  color: black;
+  font-size: 50px;
+  font:Adamina;
+  text-align: center;
+
+}
+#selfcareMenu h1{
+  color: #889EAF;
+}
+#header2 h2{
+  color: #EF8181;
+}
+#header3 h3{
+  color: #B11F1F;
+}
+#hero{
+  width:100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+#heroimg{
+  width: 100vw;
+  position: relative;
+  bottom: 300px;
+}
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 6vw;
+  top: 45vh;
+  margin: 0 0 0 7vw;
+  color: #506D84;
+}
+.button{
+  color: white;
+  border-radius: 10px;
+  background-color: #99989A;
+  padding: 10px 5px;
+  text-decoration: none;
+  text-align:center;
+  position:relative;
+  /* left: 44vw; */
+}
+
+#links a{
+  color:#2481B6;
+}
+#links{
+  text-align: center;
+  margin: 50px;
+}
+a:hover{
+  background-color:lightgrey;
+}
+a:visited{
+  color:#E5E5E5;
+}
+.button:hover{
+  background-color: #4C4C56;
+}
+.button:active{
+  background-color: black;
+  color: white;
 }
