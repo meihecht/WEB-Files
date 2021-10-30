@@ -1,0 +1,64 @@
+body{
+  background-color:white;
+}
+h1{
+  color:black;
+  position: relative;
+  font:Adamina;
+  text-align: center;
+  font-size: 50px;
+}
+#newitem{
+  color: white;
+  border-radius: 10px;
+  background-color: #99989A;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-align:center;
+  position: relative;
+  left: 10vw;
+
+}
+#newitem:hover{
+  background-color:lightgrey;
+}
+#newitem:visited{
+  color:#E5E5E5;
+}
+#newitem:active{
+  background-color: black;
+  color: white;
+}
+#hero{
+  width:100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+
+}
+#hero img{
+  width: 100vw;
+  position: relative;
+  bottom: 300px;
+}
+#herotext{
+  border: none;
+  color: black;
+  z-index: 1;
+  position:relative;
+  font-size: 5vw;
+  /* top: 30vh; */
+  margin: 1 0 0 10vw;
+}
+#selfcareitems{
+  background-color: white;
+  margin: 2vh 20vw;
+  padding: 8vh 8vw 10vh 10vw;
+  border-radius: 20px;
+  border: 1px  solid black;
+
+}
+img{
+  max-width: 100%;
+}
