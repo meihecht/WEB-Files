@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit:no" />
   <title> About Me! </title>
   <link href='./style.css' type='text/css' rel = 'stylesheet'>
 </head>
@@ -47,11 +48,12 @@
         <h1> Links Other Projects</h1>
         <br />
         <!-- This is where i would link all my assignment -->
-        <a href = "Week2/index.html" class = "button"> Encyclopedia Page</a>
-        <a href = "Week6/index.html" class = "button"> Week 6 Website</a>
-        <a href = "Week4/index.html" class = "button"> Week 4 Cascading style sheets</a>
-        <a href = "Week7/index.html" class = "button" > Week 6 Quote Machine</a>
-        <a href = "selfcare/index.html" class = "button" > Self Care Menu Final</a>
+        <div id = "assignments" >   <a href = "Week2/index.html" class = "button"> Encyclopedia Page</a>
+          <a href = "Week6/index.html" class = "button"> Week 6 Website</a>
+          <a href = "Week4/index.html" class = "button"> Week 4 Cascading style sheets</a>
+          <a href = "Week7/index.html" class = "button" > Week 6 Quote Machine</a>
+          <a href = "selfcare/index.html" class = "button" > Self Care Menu Final</a></div>
+
 
         <!-- hello my name is mei  -->
     </section>
@@ -59,6 +61,8 @@
       <h2> <a href = "#pagetop" > Back to Top</a></h2>
 
     </section>
+
+
   <script>
     console.log("javescript working");
     document.getElementById("mybutton").addEventListener("click",function(){alert("you pushed the button!"); buttonOne});
@@ -86,6 +90,7 @@
 
 
     }
+
 
 
 

@@ -1,7 +1,25 @@
+@media screen and (max-width: 700px){
+  body{
+    font-size: 3rem;
+    color: black;
+  }
+}
+@media screen and (min-width: 699px){
+  body{
+    font-size: 1rem;
+    color: red;
+  }
+}
+#assignments{
+  display: flex;
+  flex-wrap: wrap;
+
+}
 body{
   background-color:#E5E5E5;
   text-align: center;
   list-style-position: inside;
+  font-size: 1em;
 }
 
 
@@ -71,14 +89,13 @@ h4{
 
 .button{
   color: white;
+  margin-right: 20px;
+  margin-bottom: 10px;
   border-radius: 10px;
   background-color: #5D5FEF;
   padding: 15px 30px;
   text-decoration: none;
-  text-align: center
-  /* display: inline-block; */
-  /* cursor: pointer; */
-
+  text-align: center;
 }
 #mybutton,#mybutton2{
   background-color: #5D5FEF;
