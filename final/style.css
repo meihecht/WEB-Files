@@ -21,10 +21,37 @@
   #hamburgerIcon{
     float: right;
     display: none;
+    position: absolute;
   }
 }
 .hidden{
   display: none;
+}
+#practice{
+  background-color:#CFB87C;
+  text-shadow: 1px 1px 1px #000000;
+  color:#ffffff;
+}
+#practice h1{
+  text-align: center;
+  position: relative;
+  margin-top: -275px;
+  /* border-top: dotted black; */
+  padding-top:10px;
+}
+#practice h2{
+  text-align: center;
+}
+#practice h3,a{
+  text-align: center;
+  color:black;
+}
+
+#practice h4{
+  /* margin-left: 500px; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #dropDown{
   display: none;
@@ -32,7 +59,7 @@
 #heroimg{
   width: 100vw;
   position: relative;
-  bottom: 300px;
+  bottom: 270px;
 }
 #hero h1{
   z-index: 1;
@@ -40,11 +67,20 @@
   font-size: 6vw;
   top: 45vh;
   margin: 0 0 0 7vw;
-  color: black;
+  /* color: black; */
 }
 html,body{
   margin: 0;
   padding: 0;
+}
+#herotext{
+  font-family: Lato, sans-serif;
+  font-weight:50;
+  font-size: 1px;
+  text-align:center;
+  text-transform:none;
+  text-shadow: 4px 4px 4px #000000;
+  color:#ffffff;
 }
 
 .menubar{
@@ -77,11 +113,8 @@ html,body{
 .menubar.icon {
   display: none;
 }
-
-
-
-  .menubar.responsive a {
+.menubar.responsive a {
     float: none;
     display: block;
     text-align: left;
-  }
+}
