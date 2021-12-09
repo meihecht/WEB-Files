@@ -32,15 +32,18 @@ table, th, td {
 }
 table {
   width: 100%;
+  color:black;
+  text-shadow:none;
 }
 #roster{
-  background-color:#CFB87C;
+  background-color:white;
   text-shadow: 1px 1px 1px #000000;
   color:#ffffff;
 }
 #roster h1{
   text-align: center;
   position: relative;
+  color:black;
 }
 #roster h2{
   text-align: center;
