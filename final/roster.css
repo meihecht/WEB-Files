@@ -27,6 +27,7 @@
 .hidden{
   display: none;
 }
+
 table, th, td {
   border: 1px solid black;
 }
@@ -67,14 +68,12 @@ html,body{
   margin: 0;
   padding: 0;
 }
-#herotext{
-  font-family: Lato, sans-serif;
-  font-weight:50;
-  font-size: 1px;
-  text-align:center;
-  text-transform:none;
-  text-shadow: 4px 4px 4px #000000;
-  color:#ffffff;
+#heroimg{
+  width: 100vw;
+  position: relative;
+  bottom: 270px;
+  top: 0px;
+
 }
 
 .menubar{
