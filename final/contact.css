@@ -1,0 +1,131 @@
+@media screen and (max-width: 1000px) {
+  .menubar a:not(:first-child) {display: none;}
+  .menubar a.icon {
+    float: right;
+    display: block;
+  }
+  #hamburgerIcon{
+    float: right;
+    display: inline;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  .menubar.responsive {position: relative;}
+  .menubar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  #hamburgerIcon{
+    float: right;
+    display: none;
+    position: absolute;
+  }
+}
+.hidden{
+  display: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+  color:black;
+  text-shadow:none;
+}
+/* #socialimg{
+  display:flex;
+  width:-10px;
+  margin:auto;
+  justify-content: center;
+  flex-grow: 1;
+} */
+body{
+  background-color: grey;
+}
+
+#social a{
+  margin-left: 260px;
+}
+#social img{
+  width:50px;
+  margin: 0px 10px 0px 10px;
+}
+#roster{
+  background-color:white;
+  text-shadow: 1px 1px 1px #000000;
+  color:#ffffff;
+}
+#contact h1{
+  text-align: center;
+  position: relative;
+  color:black;
+}
+#contact h2{
+  text-align: center;
+}
+#contact h3,a{
+  text-align: center;
+  color:black;
+}
+
+#contact h4{
+  /* margin-left: 500px; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#dropDown{
+  display: none;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+#heroimg{
+  width: 100vw;
+  position: relative;
+  bottom: 270px;
+  top: 0px;
+
+}
+
+.menubar{
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+
+
+}
+.menubar a{
+  float: left;
+  display: block;
+  color: #CFB87C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.menubar a:hover {
+  background-color: white;
+  color: black;
+}
+.menubar a.active {
+  background-color: #CFB87C;
+  color: white;
+}
+.menubar.icon {
+  display: none;
+}
+.menubar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
