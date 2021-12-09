@@ -1,0 +1,111 @@
+@media screen and (max-width: 1000px) {
+  .menubar a:not(:first-child) {display: none;}
+  .menubar a.icon {
+    float: right;
+    display: block;
+  }
+  #hamburgerIcon{
+    float: right;
+    display: inline;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  .menubar.responsive {position: relative;}
+  .menubar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  #hamburgerIcon{
+    float: right;
+    display: none;
+    position: absolute;
+  }
+}
+.hidden{
+  display: none;
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+#roster{
+  background-color:#CFB87C;
+  text-shadow: 1px 1px 1px #000000;
+  color:#ffffff;
+}
+#roster h1{
+  text-align: center;
+  position: relative;
+}
+#roster h2{
+  text-align: center;
+}
+#roster h3,a{
+  text-align: center;
+  color:black;
+}
+
+#roster h4{
+  /* margin-left: 500px; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#dropDown{
+  display: none;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+#herotext{
+  font-family: Lato, sans-serif;
+  font-weight:50;
+  font-size: 1px;
+  text-align:center;
+  text-transform:none;
+  text-shadow: 4px 4px 4px #000000;
+  color:#ffffff;
+}
+
+.menubar{
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+
+
+}
+.menubar a{
+  float: left;
+  display: block;
+  color: #CFB87C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.menubar a:hover {
+  background-color: white;
+  color: black;
+}
+.menubar a.active {
+  background-color: #CFB87C;
+  color: white;
+}
+.menubar.icon {
+  display: none;
+}
+.menubar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
