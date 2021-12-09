@@ -44,7 +44,7 @@
 }
 #practice h3,a{
   text-align: center;
-  color:black;
+  color:white;
 }
 
 #practice h4{
@@ -117,4 +117,21 @@ html,body{
     float: none;
     display: block;
     text-align: left;
+}
+#practice{
+
+}
+
+#icon{
+  width: 120px;
+  height:50px;
+  margin-left: 570px;
+  display: flex;
+  justify-content:center;
+  border: black 1px;
+  background-color: white;
+}
+.maps{
+  display: flex;
+  justify-content: center;
 }

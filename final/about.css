@@ -79,3 +79,7 @@ html,body{
     display: block;
     text-align: left;
 }
+.container{
+  display: flex;
+  justify-content: center;
+}

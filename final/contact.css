@@ -28,14 +28,14 @@
   display: none;
 }
 
-table, th, td {
+/* table, th, td {
   border: 1px solid black;
 }
 table {
   width: 100%;
   color:black;
   text-shadow:none;
-}
+} */
 /* #socialimg{
   display:flex;
   width:-10px;
