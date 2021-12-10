@@ -30,21 +30,25 @@
 #practice{
   background-color:#CFB87C;
   text-shadow: 1px 1px 1px #000000;
-  color:#ffffff;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #practice h1{
   text-align: center;
   position: relative;
-  margin-top: -275px;
+  margin-top: -250px;
   /* border-top: dotted black; */
   padding-top:10px;
+  text-shadow: none;
 }
 #practice h2{
   text-align: center;
+  text-shadow: none;
 }
 #practice h3,a{
   text-align: center;
-  color:white;
+  color:black;
+  text-shadow: none;
 }
 
 #practice h4{
@@ -74,7 +78,7 @@ html,body{
   padding: 0;
 }
 #herotext{
-  font-family: Lato, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight:50;
   font-size: 1px;
   text-align:center;
@@ -119,6 +123,7 @@ html,body{
     text-align: left;
 }
 #practice{
+  background-color: white;
 
 }
 
@@ -133,5 +138,12 @@ html,body{
 }
 .maps{
   display: flex;
+  background-color:white;
+  margin-top:100px;
   justify-content: center;
+
+  text-color:red;
+}
+.maps h1{
+  text-color:red;
 }
