@@ -27,68 +27,12 @@
 .hidden{
   display: none;
 }
-#practice{
+/* #practice{
   background-color:#CFB87C;
   text-shadow: 1px 1px 1px #000000;
   color:black;
   font-family: Arial, Helvetica, sans-serif;
-}
-#practice h1{
-  text-align: center;
-  position: relative;
-  margin-top: -250px;
-  /* border-top: dotted black; */
-  padding-top:10px;
-  text-shadow: none;
-}
-#practice h2{
-  text-align: center;
-  text-shadow: none;
-}
-#practice h3,a{
-  text-align: center;
-  color:black;
-  text-shadow: none;
-}
-
-#practice h4{
-  /* margin-left: 500px; */
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#dropDown{
-  display: none;
-}
-#heroimg{
-  width: 100vw;
-  position: relative;
-  bottom: 270px;
-}
-#hero h1{
-  z-index: 1;
-  position: relative;
-  font-size: 6vw;
-  top: 45vh;
-  margin: 0 0 0 7vw;
-  /* color: black; */
-}
-html,body{
-  margin: 0;
-  padding: 0;
-}
-#herotext{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight:50;
-  font-size: 100%;
-  text-align:center;
-  text-transform:none;
-  text-shadow: 4px 4px 4px #000000;
-  color:#ffffff;
-  margin-top: 10vh;
-
-}
-
+} */
 .menubar{
   top: 0;
   z-index: 1;
@@ -138,17 +82,15 @@ html,body{
   border: black 1px;
   background-color: white;
 }
-.maps{
+/* .maps{
   display: flex;
   background-color:white;
   margin-top:100px;
   justify-content: center;
 
   text-color:red;
-}
-.maps h1{
-  text-color:red;
-}
+} */
+
 {
   box-sizing: border-box;
 }
@@ -184,7 +126,7 @@ body {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -193,7 +135,7 @@ body {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
