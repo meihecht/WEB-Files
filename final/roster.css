@@ -69,6 +69,7 @@ table {
 html,body{
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #heroimg{
   width: 100vw;
@@ -95,6 +96,7 @@ html,body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 
 }
 .menubar a:hover {

@@ -1,0 +1,206 @@
+@media screen and (max-width: 1000px) {
+  .menubar a:not(:first-child) {display: none;}
+  .menubar a.icon {
+    float: right;
+    display: block;
+  }
+  #hamburgerIcon{
+    float: right;
+    display: inline;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  .menubar.responsive {position: relative;}
+  .menubar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  #hamburgerIcon{
+    float: right;
+    display: none;
+    position: absolute;
+  }
+}
+.hidden{
+  display: none;
+}
+#practice{
+  background-color:#CFB87C;
+  text-shadow: 1px 1px 1px #000000;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#practice h1{
+  text-align: center;
+  position: relative;
+  margin-top: -250px;
+  /* border-top: dotted black; */
+  padding-top:10px;
+  text-shadow: none;
+}
+#practice h2{
+  text-align: center;
+  text-shadow: none;
+}
+#practice h3,a{
+  text-align: center;
+  color:black;
+  text-shadow: none;
+}
+
+#practice h4{
+  /* margin-left: 500px; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#dropDown{
+  display: none;
+}
+#heroimg{
+  width: 100vw;
+  position: relative;
+  bottom: 270px;
+}
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 6vw;
+  top: 45vh;
+  margin: 0 0 0 7vw;
+  /* color: black; */
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+#herotext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:50;
+  font-size: 100%;
+  text-align:center;
+  text-transform:none;
+  text-shadow: 4px 4px 4px #000000;
+  color:#ffffff;
+  margin-top: 10vh;
+
+}
+
+.menubar{
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+
+
+}
+.menubar a{
+  float: left;
+  display: block;
+  color: #CFB87C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.menubar a:hover {
+  background-color: white;
+  color: black;
+}
+.menubar a.active {
+  background-color: #CFB87C;
+  color: white;
+}
+.menubar.icon {
+  display: none;
+}
+.menubar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+#practice{
+  background-color: white;
+
+}
+
+#icon{
+  width: 120px;
+  height:50px;
+  margin-left: 570px;
+  display: flex;
+  justify-content:center;
+  border: black 1px;
+  background-color: white;
+}
+.maps{
+  display: flex;
+  background-color:white;
+  margin-top:100px;
+  justify-content: center;
+
+  text-color:red;
+}
+.maps h1{
+  text-color:red;
+}
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.photos h1{
+  margin-left: .6vw;
+}
